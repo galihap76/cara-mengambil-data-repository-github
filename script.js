@@ -3,7 +3,8 @@ let URL = 'https://api.github.com/repos/galihap76/text-to-speech-python'
 let data_repository = document.getElementsByClassName('data-repository')
 
 
-//tangkap endpoint API
+//ambil variabel URL
+//di mana ini akan menangkap endpoint nya
 fetch(URL)
 
 //parsing data JSON
